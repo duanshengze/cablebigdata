@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+.according{ font-size:14px; color:#333; font-family:"微软雅黑"}
+.according .i{ position:relative; height:44px; line-height:44px; border-top:1px solid #e5e5e5; border-left:3px solid transparent; margin-top:-1px; background-color:#F5F5F5; cursor:pointer }
+.according .i:before{ position:absolute; height:1px; background-color:#fff; width:100%; left:0; top:0; z-index:2;}
+.according .i:first-child{ margin-top:0;}
+.according .i.ah{ cursor:default;}
+.according .i.selected{ background-color:#fff !important; color:#009ae7; border-left-color:#4ac9ff;}
+.according .ag{ position:relative;}
+.according .ag > .i{ background-color:#EEE;}
+.according .ag > .cbtn{ position:absolute; top:18px; width:13px; height:13px; background:url(../../img/according/c.png) no-repeat 0 -15px; cursor:pointer;}
+.according .ag.collapsed > .cbtn{ background-position:0 0;}
+.according .ab{ height:auto; overflow:hidden;}
+.according .ab > .i{ background-color:#F5F5F5;}
+.according .ag.collapsed > .ab{ height:0;}
+.according.l0 > .i,.according .l0 > .i{ padding-left:17px;}
+.according .l1 > .i{ padding-left:32px;}
+.according .l2 > .i{ padding-left:47px;}
+.according .l3 > .i{ padding-left:62px;}
+.according .l0 > .cbtn{ right:18px;}
+.according .l1 > .cbtn{ right:36px;}
+.according .l2 > .cbtn{ right:54px;}
+
+
+

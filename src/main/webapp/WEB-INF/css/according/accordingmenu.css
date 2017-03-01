@@ -1,0 +1,16 @@
+/*body{ font-size:12px; font-family:"微软雅黑";}*/
+/*ul,li{ list-style:none; margin:0; padding:0;}*/
+#demo{ display:inline-block; width:215px; vertical-align:top;}
+.deomBox{ display:inline-block; margin-left:300px;border-left: 1px solid #e0e0e0;border-right: 1px solid #e0e0e0;}
+.deomBox .boxHead{ background-color:#f5f5f5;}
+.healthTil{ margin-bottom:8px;margin-left: 20px;padding-top: 20px;}
+.deomBox .healthImg{ display:inline-block; width:38px; height:40px; vertical-align:middle; background:url(../resources/default/images/According/health1.png) left no-repeat;}
+.deomBox .healthData{ display:inline-block; margin-left:10px; vertical-align:middle;}
+.visitMs {margin-left:20px;}
+.deomBox .upH{ display:inline-block; padding-left:12px; background:url(../resources/default/images/According/greenCir.png) left no-repeat;}
+.deomBox .toPo{ display:inline-block; padding:0 12px; border:1px solid #C3C3C3; border-radius:8px; line-height:24px; background-color:#FFF;}
+.deomBox .toPoImg{ padding-right:20px; background:url(../resources/default/images/According/health2.png) right no-repeat;}
+.visitMs .msList{ line-height:24px;}
+.visitMs .msList:first-child{ font-weight:bold;}
+.visitMs .msList.healthNum{ line-height:32px;}
+.healthNum .healthIcon{ margin-left:8px; padding:8px; border-radius:50%; font-size:18px; color:#FFF; background-color:#5ECC49;}

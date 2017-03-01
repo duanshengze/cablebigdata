@@ -1,0 +1,4 @@
+﻿{"data":[
+{"productline":"交换机与企业通信产品线","product":"XE900","barcode":"CR52EFFF","material2":"08","material4":"0807","material":"08070693","research":"100%","oqc":"0","iqc":"10","ict":"4","ft":"0","InterceptionRate":"100%"},
+{"productline":"交换机与企业通信产品线","product":"XE900","barcode":"CR52EFFF","material2":"08","material4":"0807","material":"08070693","research":"100%","oqc":"0","iqc":"10","ict":"4","ft":"0","InterceptionRate":"100%"},
+{"productline":"交换机与企业通信产品线","product":"XE900","barcode":"CR52EFFF","material2":"08","material4":"0807","material":"08070693","research":"100%","oqc":"0","iqc":"10","ict":"4","ft":"0","InterceptionRate":"100%"}]}
