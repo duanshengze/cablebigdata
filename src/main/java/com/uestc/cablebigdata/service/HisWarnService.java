@@ -2,8 +2,9 @@ package com.uestc.cablebigdata.service;
 
 
 
-import com.uestc.cablebigdata.entity.HisWarnInfo;
+import com.uestc.cablebigdata.dto.HisWarnInfo;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 
@@ -32,7 +33,7 @@ public interface HisWarnService {
 	 * @return
 	 */
 	public List<HisWarnInfo> getAllByMeterAndDate(String meter, String date);
-	
+	public List<HisWarnInfo> getHisTableResult(String queryJson);
 
 	
 
@@ -61,5 +62,6 @@ public interface HisWarnService {
 //	public boolean isWarn(HisWarnInfo hisWarnInfo);//是否预警
 //	
 //	public boolean isAlarm(HisWarnInfo hisWarnInfo);//是否报警
-
+ File getHisInfoFile(String queryInfo);
+	public Map<String, String> getHisChartResult(String queryJson);
 }

@@ -1,4 +1,4 @@
-package com.uestc.cablebigdata.entity;
+package com.uestc.cablebigdata.dto;
 
 
 public class HisWarnInfo {

@@ -1,7 +1,7 @@
 package com.uestc.cablebigdata.dao;
 
 
-import com.uestc.cablebigdata.entity.HisWarnInfo;
+import com.uestc.cablebigdata.dto.HisWarnInfo;
 import com.uestc.cablebigdata.entity.InsWarnInfo;
 import com.uestc.cablebigdata.entity.Machine;
 import com.uestc.cablebigdata.entity.Threshold;

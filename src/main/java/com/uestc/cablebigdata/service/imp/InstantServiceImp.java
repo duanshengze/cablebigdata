@@ -3,6 +3,7 @@ package com.uestc.cablebigdata.service.imp;
 import com.uestc.cablebigdata.entity.FirstInstantData;
 import com.uestc.cablebigdata.entity.Machine;
 import com.uestc.cablebigdata.service.InstantService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
@@ -10,6 +11,7 @@ import java.util.Map;
 /**
  * Created by Administrator on 2017/3/1.
  */
+@Service
 public class InstantServiceImp implements InstantService {
     public Map<String, Long> getDynamicContrastCount() {
         return null;

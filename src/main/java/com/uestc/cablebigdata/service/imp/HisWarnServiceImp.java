@@ -1,13 +1,16 @@
 package com.uestc.cablebigdata.service.imp;
 
-import com.uestc.cablebigdata.entity.HisWarnInfo;
+import com.uestc.cablebigdata.dto.HisWarnInfo;
 import com.uestc.cablebigdata.service.HisWarnService;
+import org.springframework.stereotype.Service;
 
+import java.io.File;
 import java.util.List;
 import java.util.Map;
 /**
  * Created by Administrator on 2017/3/1.
  */
+@Service
 public class HisWarnServiceImp  implements HisWarnService{
     public List<HisWarnInfo> getAllCompanys() {
         return null;
@@ -22,6 +25,10 @@ public class HisWarnServiceImp  implements HisWarnService{
     }
 
     public List<HisWarnInfo> getAllByMeterAndDate(String meter, String date) {
+        return null;
+    }
+
+    public List<HisWarnInfo> getHisTableResult(String queryJson) {
         return null;
     }
 
@@ -48,4 +55,13 @@ public class HisWarnServiceImp  implements HisWarnService{
     public Map<String, Object> getMeterWarnCountByVolumeAndMeter(String volume, String meter, String paramDate, String paramDateEnd) {
         return null;
     }
+
+    public File getHisInfoFile(String queryInfo) {
+        return null;
+    }
+
+    public Map<String, String> getHisChartResult(String queryJson) {
+        return null;
+    }
+
 }
