@@ -30,7 +30,7 @@ public interface InstantService {
 	 * 获取正在工作的供应商名称和对应的订单号列表
 	 * @return
 	 */
-	public Map<String, List<String>> getDynamicCompanyContrasts();
+	public Map<String, List<String>> getDynamicCompanyContrasts(String company);
 	
 	/**
 	 * 获取正在工作的工序和工序设计的机台根据订单号,认为机台号唯一

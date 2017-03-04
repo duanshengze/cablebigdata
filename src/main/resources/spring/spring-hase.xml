@@ -5,11 +5,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd http://www.springframework.org/schema/hadoop http://www.springframework.org/schema/hadoop/spring-hadoop-2.3.xsd">
 
     <!-- 直接引入类路径上的hbase-site.xml，也可以引入文件系统路径下hbase-site.xml，如:file:/opt/hbase/conf/hbase-site.xml -->
-    <hdp:configuration id="hadoopConfiguration" resources="classpath:hbase-site.xml"/>
+    <hdp:configuration id="hadoopConfiguration" resources="classpath:hbase-config.xml"/>
 
     <hdp:hbase-configuration id="hbaseConfiguration" configuration-ref="hadoopConfiguration"/>
 
     <!-- HbaseTemplate Bean配置-->
-    <!--<bean id="hbaseTemplate" class="org.springframework.data.hadoop.hbase.HbaseTemplate"-->
-          <!--p:configuration-ref="hbaseConfiguration"/>-->
+    <bean id="hbaseTemplate" class="org.springframework.data.hadoop.hbase.HbaseTemplate"
+          p:configuration-ref="hbaseConfiguration"/>
 </beans>

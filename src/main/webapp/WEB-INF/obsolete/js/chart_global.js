@@ -69,7 +69,7 @@ function queryDatas(param){
 //	alert(param.event);
 //	alert(param.name);
 //	alert(contrast_now);
-	//需要传递工序  HUMEPInsight/CN/InsHisView/page/detailchart.jsp
+
 	window.location.href=basePath+'getDynamicRefProcessAndMachines.action?machine_no='+param.name
 	+'&contrast_now='+contrast_now;
 }

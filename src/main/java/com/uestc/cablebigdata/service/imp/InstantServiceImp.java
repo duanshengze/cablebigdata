@@ -21,7 +21,7 @@ public class InstantServiceImp implements InstantService {
         return null;
     }
 
-    public Map<String, List<String>> getDynamicCompanyContrasts() {
+    public Map<String, List<String>> getDynamicCompanyContrasts(String name) {
         return null;
     }
 

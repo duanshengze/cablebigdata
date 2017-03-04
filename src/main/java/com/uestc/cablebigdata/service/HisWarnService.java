@@ -34,14 +34,6 @@ public interface HisWarnService {
 	 */
 	public List<HisWarnInfo> getAllByMeterAndDate(String meter, String date);
 	public List<HisWarnInfo> getHisTableResult(String queryJson);
-
-	
-
-	
-//	/**
-//	 * @param volume
-//	 * @return
-//	 */
 //	public List<HisWarnInfo> getAllByVolume(String volume,String paramDate, String paramDateEnd);
 
 	public Map<String,Object> getAllWarnCount(String paramDate, String paramDateEnd);
