@@ -5,6 +5,7 @@ package com.uestc.cablebigdata.service;
 
 import com.uestc.cablebigdata.entity.FirstInstantData;
 import com.uestc.cablebigdata.entity.Machine;
+import com.uestc.cablebigdata.model.InstMachineInfo;
 
 import java.util.List;
 import java.util.Map;
@@ -117,6 +118,11 @@ public interface InstantService {
 	 * @return
 	 */
 	public List<FirstInstantData> getAllSeriersDataAndCpk(String machine);
-	
 
+
+    List<String> getProcessListByCompany(String companyName);
+
+	InstMachineInfo getMachineInfo(String companyName, String machinNO);
+
+	List<String> getMachineList(String companyName, String processName);
 }

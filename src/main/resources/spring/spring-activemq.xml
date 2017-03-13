@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <!-- ActiveMQ服务的地址和端口-->
+        <property name="brokerURL" value="failover:(tcp://192.168.147.131:61616)" />
+    </bean>
+    <!-- 定义消息队列（Queue） -->
+    <bean id="queueDestination" class="org.apache.activemq.command.ActiveMQQueue">
+        <!-- 设置消息队列的名字 -->
+        <constructor-arg>
+            <value>testSpringQueue</value>
+        </constructor-arg>
+    </bean>
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="connectionFactory" />
+        <property name="defaultDestination" ref="queueDestination" />
+        <property name="receiveTimeout" value="10000" />
+    </bean>
+</beans>

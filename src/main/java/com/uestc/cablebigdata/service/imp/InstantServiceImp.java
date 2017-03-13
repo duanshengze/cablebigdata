@@ -2,6 +2,7 @@ package com.uestc.cablebigdata.service.imp;
 
 import com.uestc.cablebigdata.entity.FirstInstantData;
 import com.uestc.cablebigdata.entity.Machine;
+import com.uestc.cablebigdata.model.InstMachineInfo;
 import com.uestc.cablebigdata.service.InstantService;
 import org.springframework.stereotype.Service;
 
@@ -78,6 +79,18 @@ public class InstantServiceImp implements InstantService {
     }
 
     public List<FirstInstantData> getAllSeriersDataAndCpk(String machine) {
+        return null;
+    }
+
+    public List<String> getProcessListByCompany(String companyName) {
+        return null;
+    }
+
+    public InstMachineInfo getMachineInfo(String companyName, String machinNO) {
+        return null;
+    }
+
+    public List<String> getMachineList(String companyName, String processName) {
         return null;
     }
 }

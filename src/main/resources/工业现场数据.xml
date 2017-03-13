@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<processdata company="中利">
+    <table>
+        <proporty>
+            <item name="machine_no">CA6150JX</item>
+            <item name="company">中利</item>
+            <item name="meter_tag">200</item>
+            <item name="process_id">36</item>
+            <item name="process_name">挤绝缘</item>
+            <item name="timestamp">1488893328776</item>
+            <item name="contrast_id">1488893328776</item>
+            <item name="VOLUME_NO">bcp20151028000301</item>
+            <item name="material">聚氯乙烯/镂锡铜</item>
+        </proporty>
+        <parameter>
+            <item name="temperature1">159.3</item>
+            <item name="temperature2">154.6</item>
+            <item name="temperature3">160.2</item>
+            <item name="temperature4">192.5</item>
+            <item name="temperature5">172.3</item>
+            <item name="temperature6">187.3</item>
+            <item name="water_temperature">22.6</item>
+            <item name="cervical_temperature">176.9</item>
+            <item name="eye_temperature">170.5</item>
+            <item name="fiststress">12.4</item>
+            <item name="handpiece_temperature">186.2</item>
+            <item name="motorvelocity">117.6</item>
+            <item name="outpress">31.5</item>
+        </parameter>
+    </table>
+</processdata>
