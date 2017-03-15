@@ -1,6 +1,6 @@
 package com.uestc.cablebigdata.web;
 
-import com.uestc.cablebigdata.model.InstMachineInfo;
+import com.uestc.cablebigdata.model.view.InstMachineInfo;
 import com.uestc.cablebigdata.service.InstantService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,6 +1,6 @@
 package com.uestc.cablebigdata.service.imp;
 
-import com.uestc.cablebigdata.dto.HisWarnInfo;
+import com.uestc.cablebigdata.model.view.HisWarnInfo;
 import com.uestc.cablebigdata.service.HisWarnService;
 import org.springframework.stereotype.Service;
 

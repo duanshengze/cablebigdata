@@ -1,4 +1,4 @@
-package com.uestc.cablebigdata.model;
+package com.uestc.cablebigdata.model.view;
 
 /**
  * Created by Administrator on 2017/3/5.

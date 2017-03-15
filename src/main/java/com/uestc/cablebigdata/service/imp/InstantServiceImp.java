@@ -2,7 +2,7 @@ package com.uestc.cablebigdata.service.imp;
 
 import com.uestc.cablebigdata.entity.FirstInstantData;
 import com.uestc.cablebigdata.entity.Machine;
-import com.uestc.cablebigdata.model.InstMachineInfo;
+import com.uestc.cablebigdata.model.view.InstMachineInfo;
 import com.uestc.cablebigdata.service.InstantService;
 import org.springframework.stereotype.Service;
 

@@ -3,7 +3,7 @@ package com.uestc.cablebigdata.dao;
 
 
 
-import com.uestc.cablebigdata.dto.HisWarnInfo;
+import com.uestc.cablebigdata.model.view.HisWarnInfo;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
