@@ -1,10 +1,10 @@
 package com.uestc.cablebigdata.dao;
 
 
-import com.uestc.cablebigdata.dto.HisWarnInfo;
+import com.uestc.cablebigdata.model.view.HisWarnInfo;
 import com.uestc.cablebigdata.entity.InsWarnInfo;
 import com.uestc.cablebigdata.entity.Machine;
-import com.uestc.cablebigdata.entity.Threshold;
+
 
 import java.util.List;
 import java.util.Map;
@@ -151,8 +151,7 @@ public interface InstantDao {
 	 * @return
 	 */
 	public String getLastSparkValueByMachineNo(String machineNo);
-	
-	public Map<String, Threshold> getThresholds();
+
 	
 	public String getCompanyIsChanged(String company);
 	

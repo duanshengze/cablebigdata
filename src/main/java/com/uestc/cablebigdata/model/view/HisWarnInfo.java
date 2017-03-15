@@ -1,4 +1,4 @@
-package com.uestc.cablebigdata.dto;
+package com.uestc.cablebigdata.model.view;
 
 
 public class HisWarnInfo {

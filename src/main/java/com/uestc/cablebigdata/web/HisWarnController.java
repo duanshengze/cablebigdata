@@ -1,6 +1,6 @@
 package com.uestc.cablebigdata.web;
 
-import com.uestc.cablebigdata.dto.HisWarnInfo;
+import com.uestc.cablebigdata.model.view.HisWarnInfo;
 import com.uestc.cablebigdata.service.HisWarnService;
 
 

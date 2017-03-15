@@ -1,4 +1,4 @@
-package com.uestc.cablebigdata.model;
+package com.uestc.cablebigdata.model.view;
 
 import java.util.List;
 

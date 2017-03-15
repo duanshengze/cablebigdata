@@ -2,7 +2,7 @@ package com.uestc.cablebigdata.service;
 
 
 
-import com.uestc.cablebigdata.dto.HisWarnInfo;
+import com.uestc.cablebigdata.model.view.HisWarnInfo;
 
 import java.io.File;
 import java.util.List;

@@ -5,7 +5,7 @@ package com.uestc.cablebigdata.service;
 
 import com.uestc.cablebigdata.entity.FirstInstantData;
 import com.uestc.cablebigdata.entity.Machine;
-import com.uestc.cablebigdata.model.InstMachineInfo;
+import com.uestc.cablebigdata.model.view.InstMachineInfo;
 
 import java.util.List;
 import java.util.Map;
